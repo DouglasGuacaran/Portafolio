@@ -22,4 +22,4 @@ git commit -m "deploy (commit: $COMMIT)"
 # git push -f https://github.com/<USER-NAME>/<REPO>.git master:gh-pages
 git push -f https://github.com/DouglasGuacaran/Portafolio.git master:gh-pages
 
-cd ..
+cd -
