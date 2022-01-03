@@ -55,13 +55,31 @@ export default {
       data: [
         {
           title: "Tienda Big Mobile",
+          year:"2021",
           img: "https://picsum.photos/900/250/?image=3",
           hreference: "https://douglasguacaran.github.io/vue-big-mobile/",
+          text:"Este proyecto incluye una web para venta de dispositivos móviles",
         },
         {
           title: "Pokedex",
+          year:"2021",
           img: "https://www.gamerfocus.co/wp-content/uploads/2012/09/dex.jpg",
           hreference: "https://douglasguacaran.github.io/vue-pages-pokedex/",
+          text:"Este proyecto incluye una web para consulta de Pokémons",
+        },
+        {
+          title: "Marveldex",
+          year:"2021",
+          img: "https://cdn.hobbyconsolas.com/sites/navi.axelspringer.es/public/styles/hc_1440x810/public/media/image/2021/09/marvel-2460339.jpg?itok=cBnC1CBi",
+          hreference: "https://douglasguacaran.github.io/vue-marveldex/",
+          text:"Este proyecto incluye una web para consulta de Personajes de Marvel",
+        },
+        {
+          title: "Calcula números primos",
+          year:"2021",
+          img: "https://okdiario.com/img/2017/07/03/numeros-primos.jpg",
+          hreference: "https://douglasguacaran.github.io/vue-numerosprimos/",
+          text:"Este proyecto incluye una página para calcular los números primos en un rango de números",
         },
       ],
     };

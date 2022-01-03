@@ -6,13 +6,13 @@
         img-alt="Card Image"
         text-variant="white"
         :title="`${item.title}`"
-        sub-title="2021"
+        :sub-title="`${item.year}`"
       >
         <b-link :href="`${item.hreference}`">
           <b-card-img class="image" :src="`${item.img}`"> </b-card-img>
         </b-link>
         <b-card-text>
-          Este proyecto incluye una web para venta de dispositivos móviles.
+          {{item.text}}
         </b-card-text>
       </b-card>
     </b-col>
@@ -30,7 +30,6 @@ export default {
 
 <style>
 .image {
-  max-height: auto;
-  width: auto;
+  width: 40vw;
 }
 </style>
