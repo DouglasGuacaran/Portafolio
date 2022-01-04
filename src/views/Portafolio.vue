@@ -78,7 +78,7 @@ export default {
           title: "Calcula números primos",
           year:"2021",
           img: "https://okdiario.com/img/2017/07/03/numeros-primos.jpg",
-          hreference: "https://douglasguacaran.github.io/vue-numerosprimos/",
+          hreference: "https://douglasguacaran.github.io/vue-numeros-primos/",
           text:"Este proyecto incluye una página para calcular los números primos en un rango de números",
         },
       ],
