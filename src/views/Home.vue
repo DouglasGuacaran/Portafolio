@@ -10,7 +10,7 @@
       <b-col class="text-center container" cols="3">
         <img class="rounded" src="../assets/image1.png" alt="chess" />
         <div class="title m-3">
-          Bienvenidos a mi página, soy Douglas Guacarán
+          Bienvenidos a mi página, soy <h1>Douglas Daniel Guacarán Méndez</h1>
         </div>
       </b-col>
     </b-row>
