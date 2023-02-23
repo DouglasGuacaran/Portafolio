@@ -21,7 +21,7 @@
 
 <script>
 export default {
-  name: "Card",
+  name: "viewCard",
   props: {
     array: Array,
   },

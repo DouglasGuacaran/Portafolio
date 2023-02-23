@@ -1,18 +1,17 @@
 <template>
   <b-row class="containerGlobal">
-    <b-col>
       <b-row>
-        <b-col>
+        <b-col class="col-2">
           <img
             class="rounded radlogo"
             src="../assets/radioprotection.jpg"
             alt="UPEL"
           />
         </b-col>
-        <b-col cols="10" class="text-center title1">
+        <b-col class="col-8 text-center title">
           <h3>Estudios Universitarios Realizados</h3>
         </b-col>
-        <b-col class="text-end">
+        <b-col class="col-2 text-end">
           <img
             class="rounded radlogo"
             src="../assets/radioprotection.jpg"
@@ -67,7 +66,7 @@
           <h1 class="title2">Oficial de Protección Radiológica</h1>
         </b-col>
       </b-row>
-      <b-row class="justify-content-center m-0">
+      <b-row class="justify-content-center">
         <b-col class="text-center">
           <div class="title1">Mis Hobbies</div>
         </b-col>
@@ -81,24 +80,24 @@
           <img class="rounded" src="../assets/cinema1.jpg" alt="cinema" />
           <div class="title">Ir al cine</div>
         </b-col>
-        <b-col class="text-center container" cols="4" md="4" sm="12">
+        <b-col class="text-center container" cols="4" md="4" sm="8">
           <img class="rounded" src="../assets/pabellon.jpg" alt="pabellon" />
           <div class="title">Disfrutar una buena comida</div>
         </b-col>
       </b-row>
-      <b-row class="m-3">
+      <b-row>
         <b-col class="text-center container" cols="4">
           <img class="rounded" src="../assets/metallica.jpg" alt="imagen" />
           <div class="title">Escuchar Rock</div>
         </b-col>
       </b-row>
-    </b-col>
+
   </b-row>
 </template>
 
 <script>
 export default {
-  name: "Sobremi",
+  name: "viewSobremi",
   data() {
     return {
     };
@@ -109,6 +108,7 @@ export default {
 <style>
 @import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap");
+/* Estilos Generales */
 * {
   box-sizing: border-box;
   margin: 0;
@@ -142,7 +142,6 @@ export default {
   font-family: "Dancing Script", cursive;
   font-size: 1.5rem;
   color: whitesmoke;
-  position: relative;
 }
 
 .container:hover .title::after {
@@ -166,8 +165,7 @@ export default {
 }
 
 .radlogo {
-  height: 50px;
-  width: 70px !important;
+  width:100%;
 }
 
 .logo {

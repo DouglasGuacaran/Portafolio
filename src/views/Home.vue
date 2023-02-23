@@ -1,32 +1,21 @@
 <template>
   <div class="container-fluid">
-    <b-row>
-      <b-col>
-        <p class="text-white display-1">Software and Web Developer</p>
-      </b-col>
-    </b-row>
 
-    <b-row class="justify-content-start">
-      <b-col class="text-center container" cols="3">
-        <img class="rounded" src="../assets/image1.png" alt="chess" />
-        <div class="title m-3">
-          Bienvenidos a mi página, soy <h1>Douglas Daniel Guacarán Méndez</h1>
-        </div>
-      </b-col>
-    </b-row>
+        <p class="text-white display-1">Software and Web Developer</p>
+        <!-- <img class="rounded" src="../assets/image2.png" alt="chess" /> -->
+        <p class="title m-3">Bienvenidos a mi página, soy</p>
+        <h1>Douglas Daniel Guacarán Méndez</h1>
   </div>
 </template>
 
 <script>
-"";
-
 export default {
-  name: "Home",
-  components: {},
-
+  name: "viewHome",
+  components:{},
   data() {
-    return {
-    };
+    return{
+
+    }
   },
 };
 </script>
@@ -54,16 +43,11 @@ export default {
 }
 
 .container img {
-  filter: grayscale();
   width: 250px;
   border-radius: 5%;
   box-shadow: 10px 2px 10px 2px rgba(0, 0, 0, 0.5);
   margin-bottom: 1rem;
   transition: filter 0.4s ease-in-out;
-}
-
-.container:hover img {
-  filter: none;
 }
 
 .title {

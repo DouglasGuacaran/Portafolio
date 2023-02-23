@@ -74,7 +74,7 @@
 
 <script>
 export default {
-  name: "Contactame",
+  name: "viewContactame",
   components: {},
   data() {
     return {

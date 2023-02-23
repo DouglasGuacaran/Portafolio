@@ -46,7 +46,7 @@
 import Card from "../components/Card.vue";
 
 export default {
-  name: "Portafolio",
+  name: "viewPortafolio",
   components: {
     Card,
   },

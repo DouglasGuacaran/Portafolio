@@ -7,14 +7,14 @@
             <b-navbar-brand to="/">Inicio</b-navbar-brand>
             <b-navbar-brand to="/sobremi">Sobre mí</b-navbar-brand>
             <b-navbar-brand to="/portafolio"
-              >Portafolio</b-navbar-brand
+            >Portafolio</b-navbar-brand
             >
             <b-navbar-brand to="/contactame"
-              >Contáctame</b-navbar-brand
-            >
+            >Contáctame</b-navbar-brand>
+
           </b-navbar-nav>
         </b-navbar>
-        <router-view />
+        <router-view></router-view>
       </div>
     </div>
   </div>
